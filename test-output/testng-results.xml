@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-23T07:02:04 IST" name="Suite" finished-at="2024-04-23T07:02:36 IST" duration-ms="32078">
+    <groups>
+    </groups>
+    <test started-at="2024-04-23T07:02:04 IST" name="Flight Network_Airline filter test" finished-at="2024-04-23T07:02:36 IST" duration-ms="32078">
+      <class name="SearchFilters.Airline_Filters">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T07:01:55 IST" name="setup" finished-at="2024-04-23T07:02:04 IST" duration-ms="8823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCase07()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T07:02:04 IST" name="testCase07" description="All airline filters should be selected by default" finished-at="2024-04-23T07:02:27 IST" duration-ms="22399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase07 -->
+        <test-method signature="testCase08()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T07:02:27 IST" name="testCase08" description="When user selects any one airline, flight details of only this selected airline should be displayed" finished-at="2024-04-23T07:02:30 IST" duration-ms="3546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase08 -->
+        <test-method signature="testCase09()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T07:02:31 IST" name="testCase09" description="When user selects none of the available flights, no results should be displayed to the user" finished-at="2024-04-23T07:02:32 IST" duration-ms="1856" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Airline filter did not work. Search results are available although no airline is selected. expected:<0> but was:<10>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Airline filter did not work. Search results are available although no airline is selected. expected:<0> but was:<10>
+at org.junit.Assert.fail(Assert.java:88)
+at org.junit.Assert.failNotEquals(Assert.java:743)
+at org.junit.Assert.assertEquals(Assert.java:118)
+at org.junit.Assert.assertEquals(Assert.java:555)
+at SearchFilters.Airline_Filters.testCase09(Airline_Filters.java:107)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase09 -->
+        <test-method signature="testCase10()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T07:02:33 IST" name="testCase10" description="To verify the &#039;select all&#039; and &#039;clear all&#039; buttons of Airlines filter are working correctly" finished-at="2024-04-23T07:02:36 IST" duration-ms="3134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase10 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T07:02:37 IST" name="tearDown" finished-at="2024-04-23T07:02:39 IST" duration-ms="2584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SearchFilters.Airline_Filters -->
+    </test> <!-- Flight Network_Airline filter test -->
+  </suite> <!-- Suite -->
+</testng-results>
