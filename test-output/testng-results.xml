@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-23T07:02:04 IST" name="Suite" finished-at="2024-04-23T07:02:36 IST" duration-ms="32078">
+  <suite started-at="2024-04-23T08:35:28 IST" name="Suite" finished-at="2024-04-23T08:35:55 IST" duration-ms="27073">
     <groups>
     </groups>
-    <test started-at="2024-04-23T07:02:04 IST" name="Flight Network_Airline filter test" finished-at="2024-04-23T07:02:36 IST" duration-ms="32078">
+    <test started-at="2024-04-23T08:35:28 IST" name="Flight Network_Airline filter test" finished-at="2024-04-23T08:35:55 IST" duration-ms="27073">
       <class name="SearchFilters.Airline_Filters">
-        <test-method is-config="true" signature="setup()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T07:01:55 IST" name="setup" finished-at="2024-04-23T07:02:04 IST" duration-ms="8823" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T08:35:21 IST" name="setup" finished-at="2024-04-23T08:35:28 IST" duration-ms="6679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCase07()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T07:02:04 IST" name="testCase07" description="All airline filters should be selected by default" finished-at="2024-04-23T07:02:27 IST" duration-ms="22399" status="PASS">
+        <test-method signature="testCase07()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T08:35:28 IST" name="testCase07" description="All airline filters should be selected by default" finished-at="2024-04-23T08:35:48 IST" duration-ms="20066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase07 -->
-        <test-method signature="testCase08()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T07:02:27 IST" name="testCase08" description="When user selects any one airline, flight details of only this selected airline should be displayed" finished-at="2024-04-23T07:02:30 IST" duration-ms="3546" status="PASS">
+        <test-method signature="testCase08()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T08:35:48 IST" name="testCase08" description="When user selects any one airline, flight details of only this selected airline should be displayed" finished-at="2024-04-23T08:35:51 IST" duration-ms="2911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase08 -->
-        <test-method signature="testCase09()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T07:02:31 IST" name="testCase09" description="When user selects none of the available flights, no results should be displayed to the user" finished-at="2024-04-23T07:02:32 IST" duration-ms="1856" status="FAIL">
+        <test-method signature="testCase09()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T08:35:51 IST" name="testCase09" description="When user selects none of the available flights, no results should be displayed to the user" finished-at="2024-04-23T08:35:53 IST" duration-ms="1339" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Airline filter did not work. Search results are available although no airline is selected. expected:<0> but was:<10>]]>
@@ -63,11 +63,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase09 -->
-        <test-method signature="testCase10()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T07:02:33 IST" name="testCase10" description="To verify the &#039;select all&#039; and &#039;clear all&#039; buttons of Airlines filter are working correctly" finished-at="2024-04-23T07:02:36 IST" duration-ms="3134" status="PASS">
+        <test-method signature="testCase10()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T08:35:53 IST" name="testCase10" description="To verify the &#039;select all&#039; and &#039;clear all&#039; buttons of Airlines filter are working correctly" finished-at="2024-04-23T08:35:55 IST" duration-ms="1743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase10 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T07:02:37 IST" name="tearDown" finished-at="2024-04-23T07:02:39 IST" duration-ms="2584" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SearchFilters.Airline_Filters@12bd8a64]" started-at="2024-04-23T08:35:56 IST" name="tearDown" finished-at="2024-04-23T08:35:56 IST" duration-ms="604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
